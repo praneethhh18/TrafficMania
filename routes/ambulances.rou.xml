@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- A few ambulance trips for priority testing -->
+    <vehicle id="ambulance_0" type="ambulance" depart="15.00" departSpeed="max">
+        <route edges="A2A1 A1B1 B1B2"/>
+    </vehicle>
+    <vehicle id="ambulance_1" type="ambulance" depart="120.00" departSpeed="max">
+        <route edges="B0B1 B1C1 C1C2"/>
+    </vehicle>
+</routes>

@@ -1,0 +1,2 @@
+Run finished. total reward=-2306.67
+Steps=600 avg_total_q=2.47 avg_total_w=35.26 collisions_sum=0 arrivals_sum=243

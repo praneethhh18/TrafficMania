@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <input>
+        <net-file value="net/realistic_intersection/realistic_intersection.net.xml"/>
+        <route-files value="routes/realistic.rou.xml"/>
+        <additional-files value="vtypes.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="600"/>
+        <step-length value="1.0"/>
+    </time>
+    <processing>
+        <lateral-resolution value="2.0"/>
+    </processing>
+    <gui_only>
+        <gui-settings-file value=""/>
+    </gui_only>
+</configuration>

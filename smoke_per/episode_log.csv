@@ -1,0 +1,2 @@
+episode,episode_reward,avg_total_q,avg_total_w,switches,collisions_sum,arrivals_sum
+0,-277.6,0.46,1.08,21,0,7

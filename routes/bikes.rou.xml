@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-10-20 14:51:31 by Eclipse SUMO duarouter Version 1.24.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="net/traffic_network.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="routes\bikes.rou.xml"/>
+        <vtype-output value="motorbike"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="bike_0" depart="0.00">
+        <route edges="B1B0"/>
+    </vehicle>
+    <vehicle id="bike_1" depart="8.00">
+        <route edges="A1B1 B1A1 A1A2 A2B2"/>
+    </vehicle>
+    <vehicle id="bike_2" depart="16.00">
+        <route edges="A0B0 B0B1 B1B2 B2A2"/>
+    </vehicle>
+    <vehicle id="bike_3" depart="24.00">
+        <route edges="B2B1 B1A1 A1A0"/>
+    </vehicle>
+    <vehicle id="bike_4" depart="32.00">
+        <route edges="A1A2 A2B2 B2B1 B1B0 B0A0"/>
+    </vehicle>
+    <vehicle id="bike_5" depart="40.00">
+        <route edges="A1B1 B1B0 B0B1"/>
+    </vehicle>
+    <vehicle id="bike_6" depart="48.00">
+        <route edges="A1A2 A2B2 B2B1 B1B0 B0B1"/>
+    </vehicle>
+    <vehicle id="bike_7" depart="56.00">
+        <route edges="B2B1 B1C1 C1C0 C0B0"/>
+    </vehicle>
+    <vehicle id="bike_8" depart="64.00">
+        <route edges="A2A1 A1A2 A2B2"/>
+    </vehicle>
+    <vehicle id="bike_9" depart="72.00">
+        <route edges="B2A2 A2A1 A1B1 B1C1 C1C2 C2B2"/>
+    </vehicle>
+    <vehicle id="bike_10" depart="80.00">
+        <route edges="B1C1 C1B1 B1A1 A1A0"/>
+    </vehicle>
+    <vehicle id="bike_11" depart="88.00">
+        <route edges="B1B2 B2A2 A2A1 A1A0"/>
+    </vehicle>
+    <vehicle id="bike_12" depart="96.00">
+        <route edges="C2C1 C1C0 C0B0 B0B1"/>
+    </vehicle>
+    <vehicle id="bike_13" depart="104.00">
+        <route edges="B0A0 A0A1 A1B1 B1B2 B2A2 A2A1"/>
+    </vehicle>
+    <vehicle id="bike_14" depart="112.00">
+        <route edges="B2A2 A2A1 A1A2 A2B2"/>
+    </vehicle>
+    <vehicle id="bike_15" depart="120.00">
+        <route edges="B1B0 B0A0 A0A1"/>
+    </vehicle>
+    <vehicle id="bike_16" depart="128.00">
+        <route edges="A1A0 A0B0 B0B1"/>
+    </vehicle>
+    <vehicle id="bike_17" depart="136.00">
+        <route edges="C2C1 C1C0 C0B0 B0B1"/>
+    </vehicle>
+    <vehicle id="bike_18" depart="144.00">
+        <route edges="B1C1 C1C0 C0B0 B0A0 A0A1"/>
+    </vehicle>
+    <vehicle id="bike_19" depart="152.00">
+        <route edges="B1B0 B0C0 C0C1 C1C2"/>
+    </vehicle>
+    <vehicle id="bike_20" depart="160.00">
+        <route edges="C2B2 B2B1 B1C1 C1C0"/>
+    </vehicle>
+    <vehicle id="bike_21" depart="168.00">
+        <route edges="B0C0 C0C1 C1B1 B1A1 A1A2"/>
+    </vehicle>
+    <vehicle id="bike_22" depart="176.00">
+        <route edges="A1A2 A2B2 B2B1 B1C1 C1C2"/>
+    </vehicle>
+    <vehicle id="bike_23" depart="184.00">
+        <route edges="C0B0 B0B1 B1B2 B2A2"/>
+    </vehicle>
+    <vehicle id="bike_24" depart="192.00">
+        <route edges="A0B0 B0B1 B1C1"/>
+    </vehicle>
+    <vehicle id="bike_25" depart="200.00">
+        <route edges="B0A0 A0A1 A1A0 A0B0"/>
+    </vehicle>
+    <vehicle id="bike_26" depart="208.00">
+        <route edges="B2C2 C2C1 C1B1 B1B2 B2B1"/>
+    </vehicle>
+    <vehicle id="bike_27" depart="216.00">
+        <route edges="C0B0 B0B1 B1C1"/>
+    </vehicle>
+    <vehicle id="bike_28" depart="224.00">
+        <route edges="B2A2 A2A1 A1A0 A0B0 B0B1"/>
+    </vehicle>
+    <vehicle id="bike_29" depart="232.00">
+        <route edges="B2A2 A2A1 A1A2"/>
+    </vehicle>
+    <vehicle id="bike_30" depart="240.00">
+        <route edges="C1C2 C2B2 B2C2 C2C1 C1B1"/>
+    </vehicle>
+    <vehicle id="bike_31" depart="248.00">
+        <route edges="A2B2 B2B1 B1B0 B0C0"/>
+    </vehicle>
+    <vehicle id="bike_32" depart="256.00">
+        <route edges="A2B2 B2B1 B1B0 B0B1"/>
+    </vehicle>
+    <vehicle id="bike_33" depart="264.00">
+        <route edges="A1A0 A0B0 B0B1 B1B2 B2C2"/>
+    </vehicle>
+    <vehicle id="bike_34" depart="272.00">
+        <route edges="B1B2 B2B1 B1B0 B0C0 C0C1"/>
+    </vehicle>
+    <vehicle id="bike_35" depart="280.00">
+        <route edges="C2B2 B2A2"/>
+    </vehicle>
+    <vehicle id="bike_36" depart="288.00">
+        <route edges="A2B2 B2A2"/>
+    </vehicle>
+    <vehicle id="bike_37" depart="296.00">
+        <route edges="B0A0"/>
+    </vehicle>
+    <vehicle id="bike_38" depart="304.00">
+        <route edges="C0C1 C1B1 B1B0 B0A0"/>
+    </vehicle>
+    <vehicle id="bike_39" depart="312.00">
+        <route edges="A1A2 A2B2 B2B1 B1B2"/>
+    </vehicle>
+    <vehicle id="bike_40" depart="320.00">
+        <route edges="C2C1 C1B1 B1B0 B0C0"/>
+    </vehicle>
+    <vehicle id="bike_41" depart="328.00">
+        <route edges="A2B2 B2B1 B1C1 C1C2 C2B2"/>
+    </vehicle>
+    <vehicle id="bike_42" depart="336.00">
+        <route edges="B0C0 C0C1 C1B1 B1A1 A1A0"/>
+    </vehicle>
+    <vehicle id="bike_43" depart="344.00">
+        <route edges="A1A0 A0B0 B0B1 B1B2 B2A2"/>
+    </vehicle>
+    <vehicle id="bike_44" depart="352.00">
+        <route edges="C2B2 B2C2 C2C1 C1B1"/>
+    </vehicle>
+    <vehicle id="bike_45" depart="360.00">
+        <route edges="B2B1 B1C1 C1C2"/>
+    </vehicle>
+    <vehicle id="bike_46" depart="368.00">
+        <route edges="C2B2 B2B1 B1C1"/>
+    </vehicle>
+    <vehicle id="bike_47" depart="376.00">
+        <route edges="C2B2 B2B1 B1B0"/>
+    </vehicle>
+    <vehicle id="bike_48" depart="384.00">
+        <route edges="B2A2 A2A1 A1B1 B1B2 B2C2"/>
+    </vehicle>
+    <vehicle id="bike_49" depart="392.00">
+        <route edges="B1B2 B2B1 B1B0 B0C0"/>
+    </vehicle>
+    <vehicle id="bike_50" depart="400.00">
+        <route edges="B2A2 A2A1 A1B1 B1B0 B0A0"/>
+    </vehicle>
+    <vehicle id="bike_51" depart="408.00">
+        <route edges="A2A1 A1A0 A0B0 B0C0"/>
+    </vehicle>
+    <vehicle id="bike_52" depart="416.00">
+        <route edges="A1A2 A2B2 B2B1 B1B0 B0C0"/>
+    </vehicle>
+    <vehicle id="bike_53" depart="424.00">
+        <route edges="B0A0 A0A1 A1B1 B1B0"/>
+    </vehicle>
+    <vehicle id="bike_54" depart="432.00">
+        <route edges="C1C0 C0B0 B0B1 B1C1 C1C2"/>
+    </vehicle>
+    <vehicle id="bike_55" depart="440.00">
+        <route edges="B1A1 A1B1 B1C1 C1B1"/>
+    </vehicle>
+    <vehicle id="bike_56" depart="448.00">
+        <route edges="B2A2 A2A1 A1A2"/>
+    </vehicle>
+    <vehicle id="bike_57" depart="456.00">
+        <route edges="C2C1 C1B1"/>
+    </vehicle>
+    <vehicle id="bike_58" depart="464.00">
+        <route edges="C0C1 C1B1 B1B0 B0A0"/>
+    </vehicle>
+    <vehicle id="bike_59" depart="472.00">
+        <route edges="B1A1 A1B1 B1B0 B0A0"/>
+    </vehicle>
+    <vehicle id="bike_60" depart="480.00">
+        <route edges="B0C0 C0C1 C1B1 B1A1 A1A2"/>
+    </vehicle>
+    <vehicle id="bike_61" depart="488.00">
+        <route edges="B1B2 B2A2 A2A1"/>
+    </vehicle>
+    <vehicle id="bike_62" depart="496.00">
+        <route edges="B0A0 A0A1 A1B1 B1B2 B2A2 A2A1"/>
+    </vehicle>
+    <vehicle id="bike_63" depart="504.00">
+        <route edges="A1A0 A0B0 B0B1 B1B2 B2A2 A2A1"/>
+    </vehicle>
+    <vehicle id="bike_64" depart="512.00">
+        <route edges="B2A2 A2A1 A1A2 A2B2"/>
+    </vehicle>
+    <vehicle id="bike_65" depart="520.00">
+        <route edges="B1B0 B0C0 C0C1 C1B1"/>
+    </vehicle>
+    <vehicle id="bike_66" depart="528.00">
+        <route edges="A0A1 A1B1 B1B0 B0B1"/>
+    </vehicle>
+    <vehicle id="bike_67" depart="536.00">
+        <route edges="B1A1 A1B1 B1C1"/>
+    </vehicle>
+    <vehicle id="bike_68" depart="544.00">
+        <route edges="C0B0"/>
+    </vehicle>
+    <vehicle id="bike_69" depart="552.00">
+        <route edges="C2C1 C1B1 B1A1 A1A0"/>
+    </vehicle>
+    <vehicle id="bike_70" depart="560.00">
+        <route edges="B2A2 A2A1 A1B1 B1B2 B2C2"/>
+    </vehicle>
+    <vehicle id="bike_71" depart="568.00">
+        <route edges="C1C2 C2B2 B2B1 B1A1 A1A2 A2B2"/>
+    </vehicle>
+    <vehicle id="bike_72" depart="576.00">
+        <route edges="C1C0 C0B0 B0B1 B1C1 C1C2 C2B2"/>
+    </vehicle>
+    <vehicle id="bike_73" depart="584.00">
+        <route edges="A2A1 A1B1 B1B2 B2C2"/>
+    </vehicle>
+    <vehicle id="bike_74" depart="592.00">
+        <route edges="A0A1 A1B1 B1B0 B0B1"/>
+    </vehicle>
+</routes>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-10-20 14:51:30 by Eclipse SUMO duarouter Version 1.24.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="net/traffic_network.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="routes\buses.rou.xml"/>
+        <vtype-output value="bus"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="bus_0" depart="0.00">
+        <route edges="B0A0 A0A1"/>
+    </vehicle>
+    <vehicle id="bus_1" depart="14.00">
+        <route edges="C0B0 B0B1 B1A1"/>
+    </vehicle>
+    <vehicle id="bus_2" depart="28.00">
+        <route edges="A1A0 A0B0 B0C0 C0C1"/>
+    </vehicle>
+    <vehicle id="bus_3" depart="42.00">
+        <route edges="B1B2 B2B1"/>
+    </vehicle>
+    <vehicle id="bus_4" depart="56.00">
+        <route edges="B2B1 B1B2 B2C2 C2C1"/>
+    </vehicle>
+    <vehicle id="bus_5" depart="70.00">
+        <route edges="C0C1 C1C0"/>
+    </vehicle>
+    <vehicle id="bus_6" depart="84.00">
+        <route edges="C0B0 B0B1 B1B0"/>
+    </vehicle>
+    <vehicle id="bus_7" depart="98.00">
+        <route edges="A2B2 B2B1 B1B0 B0C0 C0C1"/>
+    </vehicle>
+    <vehicle id="bus_8" depart="112.00">
+        <route edges="C2B2 B2B1 B1B0 B0C0"/>
+    </vehicle>
+    <vehicle id="bus_9" depart="126.00">
+        <route edges="A1B1 B1A1"/>
+    </vehicle>
+    <vehicle id="bus_10" depart="140.00">
+        <route edges="A0B0 B0B1"/>
+    </vehicle>
+    <vehicle id="bus_11" depart="154.00">
+        <route edges="B0C0"/>
+    </vehicle>
+    <vehicle id="bus_12" depart="168.00">
+        <route edges="B1C1 C1B1 B1A1"/>
+    </vehicle>
+    <vehicle id="bus_13" depart="182.00">
+        <route edges="C1C2 C2B2 B2B1"/>
+    </vehicle>
+    <vehicle id="bus_14" depart="196.00">
+        <route edges="B1A1 A1A2"/>
+    </vehicle>
+    <vehicle id="bus_15" depart="210.00">
+        <route edges="C2C1 C1C0"/>
+    </vehicle>
+    <vehicle id="bus_16" depart="224.00">
+        <route edges="B1A1 A1B1 B1C1 C1C0 C0B0"/>
+    </vehicle>
+    <vehicle id="bus_17" depart="238.00">
+        <route edges="B0C0 C0C1 C1B1 B1B0"/>
+    </vehicle>
+    <vehicle id="bus_18" depart="252.00">
+        <route edges="B2A2"/>
+    </vehicle>
+    <vehicle id="bus_19" depart="266.00">
+        <route edges="C2C1 C1B1 B1C1"/>
+    </vehicle>
+    <vehicle id="bus_20" depart="280.00">
+        <route edges="A1A0 A0B0 B0B1 B1B2"/>
+    </vehicle>
+    <vehicle id="bus_21" depart="294.00">
+        <route edges="B1B2 B2C2 C2C1 C1C0"/>
+    </vehicle>
+    <vehicle id="bus_22" depart="308.00">
+        <route edges="C2B2 B2B1 B1C1 C1C0 C0B0"/>
+    </vehicle>
+    <vehicle id="bus_23" depart="322.00">
+        <route edges="A1B1 B1B0 B0A0 A0A1"/>
+    </vehicle>
+    <vehicle id="bus_24" depart="336.00">
+        <route edges="B1C1 C1C2 C2B2 B2B1"/>
+    </vehicle>
+    <vehicle id="bus_25" depart="350.00">
+        <route edges="B2C2 C2C1 C1C0 C0B0 B0A0 A0A1"/>
+    </vehicle>
+    <vehicle id="bus_26" depart="364.00">
+        <route edges="B0A0 A0A1 A1B1 B1C1"/>
+    </vehicle>
+    <vehicle id="bus_27" depart="378.00">
+        <route edges="C1B1 B1B0 B0A0 A0A1"/>
+    </vehicle>
+    <vehicle id="bus_28" depart="392.00">
+        <route edges="C1B1 B1B0 B0B1"/>
+    </vehicle>
+    <vehicle id="bus_29" depart="406.00">
+        <route edges="B0A0 A0A1 A1B1 B1B2 B2A2"/>
+    </vehicle>
+    <vehicle id="bus_30" depart="420.00">
+        <route edges="C2B2 B2B1 B1B0 B0A0"/>
+    </vehicle>
+    <vehicle id="bus_31" depart="434.00">
+        <route edges="A0B0 B0C0 C0C1"/>
+    </vehicle>
+    <vehicle id="bus_32" depart="448.00">
+        <route edges="A1B1 B1C1 C1B1"/>
+    </vehicle>
+    <vehicle id="bus_33" depart="462.00">
+        <route edges="A1A2 A2B2 B2B1 B1C1"/>
+    </vehicle>
+    <vehicle id="bus_34" depart="476.00">
+        <route edges="B0C0 C0C1 C1B1 B1B2"/>
+    </vehicle>
+    <vehicle id="bus_35" depart="490.00">
+        <route edges="C1C0 C0B0 B0B1 B1C1 C1B1"/>
+    </vehicle>
+    <vehicle id="bus_36" depart="504.00">
+        <route edges="B0C0 C0C1 C1B1 B1B0"/>
+    </vehicle>
+    <vehicle id="bus_37" depart="518.00">
+        <route edges="C1C0 C0B0 B0B1 B1C1 C1C2"/>
+    </vehicle>
+    <vehicle id="bus_38" depart="532.00">
+        <route edges="A1A2 A2B2 B2B1 B1C1 C1C2"/>
+    </vehicle>
+    <vehicle id="bus_39" depart="546.00">
+        <route edges="C1C2 C2B2"/>
+    </vehicle>
+    <vehicle id="bus_40" depart="560.00">
+        <route edges="A0A1 A1A0 A0B0"/>
+    </vehicle>
+    <vehicle id="bus_41" depart="574.00">
+        <route edges="A1B1 B1B2 B2C2"/>
+    </vehicle>
+    <vehicle id="bus_42" depart="588.00">
+        <route edges="A0A1 A1B1 B1B0 B0C0 C0C1"/>
+    </vehicle>
+</routes>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-10-20 14:51:31.301851 by randomTrips.py v1_24_0+0000-b72eb3fabc8
+<configuration>
+    <net-file value="net/traffic_network.net.xml"/>
+    <route-file value="routes\bikes.rou.xml"/>
+    <vtype-output value="motorbike"/>
+    <prefix value="bike_"/>
+    <length value="True"/>
+    <seed value="1284"/>
+    <end value="600.0"/>
+    <period value="8.0"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="bike_0" depart="0.00" from="B1B0" to="B1B0"/>
+    <trip id="bike_1" depart="8.00" from="A1B1" to="A2B2"/>
+    <trip id="bike_2" depart="16.00" from="A0B0" to="B2A2"/>
+    <trip id="bike_3" depart="24.00" from="B2B1" to="A1A0"/>
+    <trip id="bike_4" depart="32.00" from="A1A2" to="B0A0"/>
+    <trip id="bike_5" depart="40.00" from="A1B1" to="B0B1"/>
+    <trip id="bike_6" depart="48.00" from="A1A2" to="B0B1"/>
+    <trip id="bike_7" depart="56.00" from="B2B1" to="C0B0"/>
+    <trip id="bike_8" depart="64.00" from="A2A1" to="A2B2"/>
+    <trip id="bike_9" depart="72.00" from="B2A2" to="C2B2"/>
+    <trip id="bike_10" depart="80.00" from="B1C1" to="A1A0"/>
+    <trip id="bike_11" depart="88.00" from="B1B2" to="A1A0"/>
+    <trip id="bike_12" depart="96.00" from="C2C1" to="B0B1"/>
+    <trip id="bike_13" depart="104.00" from="B0A0" to="A2A1"/>
+    <trip id="bike_14" depart="112.00" from="B2A2" to="A2B2"/>
+    <trip id="bike_15" depart="120.00" from="B1B0" to="A0A1"/>
+    <trip id="bike_16" depart="128.00" from="A1A0" to="B0B1"/>
+    <trip id="bike_17" depart="136.00" from="C2C1" to="B0B1"/>
+    <trip id="bike_18" depart="144.00" from="B1C1" to="A0A1"/>
+    <trip id="bike_19" depart="152.00" from="B1B0" to="C1C2"/>
+    <trip id="bike_20" depart="160.00" from="C2B2" to="C1C0"/>
+    <trip id="bike_21" depart="168.00" from="B0C0" to="A1A2"/>
+    <trip id="bike_22" depart="176.00" from="A1A2" to="C1C2"/>
+    <trip id="bike_23" depart="184.00" from="C0B0" to="B2A2"/>
+    <trip id="bike_24" depart="192.00" from="A0B0" to="B1C1"/>
+    <trip id="bike_25" depart="200.00" from="B0A0" to="A0B0"/>
+    <trip id="bike_26" depart="208.00" from="B2C2" to="B2B1"/>
+    <trip id="bike_27" depart="216.00" from="C0B0" to="B1C1"/>
+    <trip id="bike_28" depart="224.00" from="B2A2" to="B0B1"/>
+    <trip id="bike_29" depart="232.00" from="B2A2" to="A1A2"/>
+    <trip id="bike_30" depart="240.00" from="C1C2" to="C1B1"/>
+    <trip id="bike_31" depart="248.00" from="A2B2" to="B0C0"/>
+    <trip id="bike_32" depart="256.00" from="A2B2" to="B0B1"/>
+    <trip id="bike_33" depart="264.00" from="A1A0" to="B2C2"/>
+    <trip id="bike_34" depart="272.00" from="B1B2" to="C0C1"/>
+    <trip id="bike_35" depart="280.00" from="C2B2" to="B2A2"/>
+    <trip id="bike_36" depart="288.00" from="A2B2" to="B2A2"/>
+    <trip id="bike_37" depart="296.00" from="B0A0" to="B0A0"/>
+    <trip id="bike_38" depart="304.00" from="C0C1" to="B0A0"/>
+    <trip id="bike_39" depart="312.00" from="A1A2" to="B1B2"/>
+    <trip id="bike_40" depart="320.00" from="C2C1" to="B0C0"/>
+    <trip id="bike_41" depart="328.00" from="A2B2" to="C2B2"/>
+    <trip id="bike_42" depart="336.00" from="B0C0" to="A1A0"/>
+    <trip id="bike_43" depart="344.00" from="A1A0" to="B2A2"/>
+    <trip id="bike_44" depart="352.00" from="C2B2" to="C1B1"/>
+    <trip id="bike_45" depart="360.00" from="B2B1" to="C1C2"/>
+    <trip id="bike_46" depart="368.00" from="C2B2" to="B1C1"/>
+    <trip id="bike_47" depart="376.00" from="C2B2" to="B1B0"/>
+    <trip id="bike_48" depart="384.00" from="B2A2" to="B2C2"/>
+    <trip id="bike_49" depart="392.00" from="B1B2" to="B0C0"/>
+    <trip id="bike_50" depart="400.00" from="B2A2" to="B0A0"/>
+    <trip id="bike_51" depart="408.00" from="A2A1" to="B0C0"/>
+    <trip id="bike_52" depart="416.00" from="A1A2" to="B0C0"/>
+    <trip id="bike_53" depart="424.00" from="B0A0" to="B1B0"/>
+    <trip id="bike_54" depart="432.00" from="C1C0" to="C1C2"/>
+    <trip id="bike_55" depart="440.00" from="B1A1" to="C1B1"/>
+    <trip id="bike_56" depart="448.00" from="B2A2" to="A1A2"/>
+    <trip id="bike_57" depart="456.00" from="C2C1" to="C1B1"/>
+    <trip id="bike_58" depart="464.00" from="C0C1" to="B0A0"/>
+    <trip id="bike_59" depart="472.00" from="B1A1" to="B0A0"/>
+    <trip id="bike_60" depart="480.00" from="B0C0" to="A1A2"/>
+    <trip id="bike_61" depart="488.00" from="B1B2" to="A2A1"/>
+    <trip id="bike_62" depart="496.00" from="B0A0" to="A2A1"/>
+    <trip id="bike_63" depart="504.00" from="A1A0" to="A2A1"/>
+    <trip id="bike_64" depart="512.00" from="B2A2" to="A2B2"/>
+    <trip id="bike_65" depart="520.00" from="B1B0" to="C1B1"/>
+    <trip id="bike_66" depart="528.00" from="A0A1" to="B0B1"/>
+    <trip id="bike_67" depart="536.00" from="B1A1" to="B1C1"/>
+    <trip id="bike_68" depart="544.00" from="C0B0" to="C0B0"/>
+    <trip id="bike_69" depart="552.00" from="C2C1" to="A1A0"/>
+    <trip id="bike_70" depart="560.00" from="B2A2" to="B2C2"/>
+    <trip id="bike_71" depart="568.00" from="C1C2" to="A2B2"/>
+    <trip id="bike_72" depart="576.00" from="C1C0" to="C2B2"/>
+    <trip id="bike_73" depart="584.00" from="A2A1" to="B2C2"/>
+    <trip id="bike_74" depart="592.00" from="A0A1" to="B0B1"/>
+</routes>

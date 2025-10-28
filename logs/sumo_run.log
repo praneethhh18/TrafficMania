@@ -1,0 +1,25 @@
+Loading net-file from 'net/traffic_network.net.xml' ... done (7ms).
+Loading additional-files from 'vtypes.add.xml' ... done (1ms).
+Loading route-files incrementally from 'routes/cars.rou.xml'
+Loading route-files incrementally from 'routes/trucks.rou.xml'
+Loading route-files incrementally from 'routes/buses.rou.xml'
+Loading route-files incrementally from 'routes/bikes.rou.xml'
+Loading done.
+Simulation version 1.24.0 started with time: 0.00.
+Simulation ended at time: 600.00.
+Reason: The final simulation step has been reached.
+Performance:
+ Duration: 0.80s
+ Real time factor: 748.13
+ UPS: 81128.428928
+Vehicles:
+ Inserted: 756 (Loaded: 775)
+ Running: 185
+ Waiting: 19
+Statistics (avg of 571):
+ RouteLength: 334.19
+ Speed: 5.14
+ Duration: 79.72
+ WaitingTime: 30.01
+ TimeLoss: 53.90
+ DepartDelay: 2.31

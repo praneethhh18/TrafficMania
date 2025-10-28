@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Use existing vehicle types from vtypes.add.xml when present -->
+    <!-- Passenger cars (default SUMO type if unspecified) -->
+
+    <!-- Flows across intersection from each approach with varied turning -->
+    <!-- North -> (South straight, East right, West left) -->
+    <route id="r_n_s" edges="n_j0 j0_s"/>
+    <route id="r_n_e" edges="n_j0 j0_e"/>
+    <route id="r_n_w" edges="n_j0 j0_w"/>
+
+    <!-- South -> (North straight, East left, West right) -->
+    <route id="r_s_n" edges="s_j0 j0_n"/>
+    <route id="r_s_e" edges="s_j0 j0_e"/>
+    <route id="r_s_w" edges="s_j0 j0_w"/>
+
+    <!-- East -> (West straight, North left, South right) -->
+    <route id="r_e_w" edges="e_j0 j0_w"/>
+    <route id="r_e_n" edges="e_j0 j0_n"/>
+    <route id="r_e_s" edges="e_j0 j0_s"/>
+
+    <!-- West -> (East straight, North right, South left) -->
+    <route id="r_w_e" edges="w_j0 j0_e"/>
+    <route id="r_w_n" edges="w_j0 j0_n"/>
+    <route id="r_w_s" edges="w_j0 j0_s"/>
+
+    <!-- Demand: staggered flows 0-600s. Adjust period for heavier traffic. -->
+    <flow id="f_n" begin="0" end="600" number="180" route="r_n_s" departPos="random" departLane="random" departSpeed="max"/>
+    <flow id="f_n_turns" begin="0" end="600" number="90" route="r_n_e" departPos="random" departLane="random" departSpeed="max"/>
+    <flow id="f_n_turns2" begin="0" end="600" number="90" route="r_n_w" departPos="random" departLane="random" departSpeed="max"/>
+
+    <flow id="f_s" begin="0" end="600" number="180" route="r_s_n" departPos="random" departLane="random" departSpeed="max"/>
+    <flow id="f_s_turns" begin="0" end="600" number="90" route="r_s_e" departPos="random" departLane="random" departSpeed="max"/>
+    <flow id="f_s_turns2" begin="0" end="600" number="90" route="r_s_w" departPos="random" departLane="random" departSpeed="max"/>
+
+    <flow id="f_e" begin="0" end="600" number="120" route="r_e_w" departPos="random" departLane="random" departSpeed="max"/>
+    <flow id="f_e_turns" begin="0" end="600" number="60" route="r_e_n" departPos="random" departLane="random" departSpeed="max"/>
+    <flow id="f_e_turns2" begin="0" end="600" number="60" route="r_e_s" departPos="random" departLane="random" departSpeed="max"/>
+
+    <flow id="f_w" begin="0" end="600" number="120" route="r_w_e" departPos="random" departLane="random" departSpeed="max"/>
+    <flow id="f_w_turns" begin="0" end="600" number="60" route="r_w_n" departPos="random" departLane="random" departSpeed="max"/>
+    <flow id="f_w_turns2" begin="0" end="600" number="60" route="r_w_s" departPos="random" departLane="random" departSpeed="max"/>
+
+    <!-- Ambulance priority examples (infrequent) using existing vtype if present -->
+    <vType id="amb" vClass="emergency" accel="2.6" decel="4.5" length="5.0" sigma="0.5" maxSpeed="27.8" guiShape="emergency" color="1,0,0"/>
+    <vehicle id="ambulance_1" type="amb" depart="30" route="r_s_n"/>
+    <vehicle id="ambulance_2" type="amb" depart="180" route="r_e_w"/>
+</routes>

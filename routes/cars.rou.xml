@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-10-20 14:51:29 by Eclipse SUMO duarouter Version 1.24.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="net/traffic_network.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="routes\cars.rou.xml"/>
+        <vtype-output value="passenger"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="car_0" depart="0.00">
+        <route edges="A2A1 A1B1 B1B2 B2C2 C2C1"/>
+    </vehicle>
+    <vehicle id="car_1" depart="6.00">
+        <route edges="B1B0 B0B1 B1B2 B2A2 A2A1"/>
+    </vehicle>
+    <vehicle id="car_2" depart="12.00">
+        <route edges="B0A0 A0A1 A1B1 B1C1 C1C0 C0B0"/>
+    </vehicle>
+    <vehicle id="car_3" depart="18.00">
+        <route edges="C0C1 C1B1 B1A1 A1A2 A2B2"/>
+    </vehicle>
+    <vehicle id="car_4" depart="24.00">
+        <route edges="B1A1 A1A0 A0B0 B0B1"/>
+    </vehicle>
+    <vehicle id="car_5" depart="30.00">
+        <route edges="A1B1 B1C1 C1B1"/>
+    </vehicle>
+    <vehicle id="car_6" depart="36.00">
+        <route edges="A1A0"/>
+    </vehicle>
+    <vehicle id="car_7" depart="42.00">
+        <route edges="B2B1 B1B0"/>
+    </vehicle>
+    <vehicle id="car_8" depart="48.00">
+        <route edges="C1C2 C2B2 B2B1 B1B0 B0B1"/>
+    </vehicle>
+    <vehicle id="car_9" depart="54.00">
+        <route edges="B0B1 B1C1 C1C0 C0B0"/>
+    </vehicle>
+    <vehicle id="car_10" depart="60.00">
+        <route edges="C1C0 C0B0 B0B1 B1C1 C1C2"/>
+    </vehicle>
+    <vehicle id="car_11" depart="66.00">
+        <route edges="B1B2 B2B1 B1B0 B0B1"/>
+    </vehicle>
+    <vehicle id="car_12" depart="72.00">
+        <route edges="B1B2 B2B1 B1A1"/>
+    </vehicle>
+    <vehicle id="car_13" depart="78.00">
+        <route edges="B0B1 B1A1 A1A2"/>
+    </vehicle>
+    <vehicle id="car_14" depart="84.00">
+        <route edges="C0B0 B0A0 A0A1 A1A2 A2B2"/>
+    </vehicle>
+    <vehicle id="car_15" depart="90.00">
+        <route edges="B2A2 A2A1 A1A2 A2B2"/>
+    </vehicle>
+    <vehicle id="car_16" depart="96.00">
+        <route edges="C1B1 B1A1 A1A2"/>
+    </vehicle>
+    <vehicle id="car_17" depart="102.00">
+        <route edges="C0B0 B0B1 B1C1 C1B1"/>
+    </vehicle>
+    <vehicle id="car_18" depart="108.00">
+        <route edges="B2C2 C2C1 C1B1 B1C1"/>
+    </vehicle>
+    <vehicle id="car_19" depart="114.00">
+        <route edges="B1A1 A1B1 B1B0"/>
+    </vehicle>
+    <vehicle id="car_20" depart="120.00">
+        <route edges="B1B2 B2C2 C2C1"/>
+    </vehicle>
+    <vehicle id="car_21" depart="126.00">
+        <route edges="B0A0 A0A1 A1B1 B1B2"/>
+    </vehicle>
+    <vehicle id="car_22" depart="132.00">
+        <route edges="C2B2 B2B1 B1A1"/>
+    </vehicle>
+    <vehicle id="car_23" depart="138.00">
+        <route edges="A0B0 B0B1 B1B2 B2C2 C2C1"/>
+    </vehicle>
+    <vehicle id="car_24" depart="144.00">
+        <route edges="B0B1 B1B2"/>
+    </vehicle>
+    <vehicle id="car_25" depart="150.00">
+        <route edges="C2B2 B2B1 B1A1"/>
+    </vehicle>
+    <vehicle id="car_26" depart="156.00">
+        <route edges="A1A0 A0B0 B0B1 B1A1"/>
+    </vehicle>
+    <vehicle id="car_27" depart="162.00">
+        <route edges="B2B1 B1B2 B2C2 C2C1"/>
+    </vehicle>
+    <vehicle id="car_28" depart="168.00">
+        <route edges="C1B1 B1C1 C1C0 C0B0"/>
+    </vehicle>
+    <vehicle id="car_29" depart="174.00">
+        <route edges="B0B1 B1C1"/>
+    </vehicle>
+    <vehicle id="car_30" depart="180.00">
+        <route edges="A1A0 A0B0 B0B1 B1A1 A1A2 A2B2"/>
+    </vehicle>
+    <vehicle id="car_31" depart="186.00">
+        <route edges="B1B2 B2B1 B1A1"/>
+    </vehicle>
+    <vehicle id="car_32" depart="192.00">
+        <route edges="A1A0 A0B0 B0B1 B1B2 B2C2 C2C1"/>
+    </vehicle>
+    <vehicle id="car_33" depart="198.00">
+        <route edges="C2B2 B2B1 B1A1"/>
+    </vehicle>
+    <vehicle id="car_34" depart="204.00">
+        <route edges="A0B0 B0B1 B1B2 B2C2 C2C1"/>
+    </vehicle>
+    <vehicle id="car_35" depart="210.00">
+        <route edges="A2B2 B2B1 B1A1 A1A0 A0B0"/>
+    </vehicle>
+    <vehicle id="car_36" depart="216.00">
+        <route edges="A0B0 B0B1 B1B2 B2A2 A2A1"/>
+    </vehicle>
+    <vehicle id="car_37" depart="222.00">
+        <route edges="C0C1 C1B1 B1B2 B2C2"/>
+    </vehicle>
+    <vehicle id="car_38" depart="228.00">
+        <route edges="A2A1 A1A2 A2B2 B2B1"/>
+    </vehicle>
+    <vehicle id="car_39" depart="234.00">
+        <route edges="A0B0 B0B1 B1B2"/>
+    </vehicle>
+    <vehicle id="car_40" depart="240.00">
+        <route edges="A2A1 A1B1"/>
+    </vehicle>
+    <vehicle id="car_41" depart="246.00">
+        <route edges="A2A1 A1A2 A2B2 B2B1"/>
+    </vehicle>
+    <vehicle id="car_42" depart="252.00">
+        <route edges="B1B0 B0A0 A0A1 A1A0 A0B0"/>
+    </vehicle>
+    <vehicle id="car_43" depart="258.00">
+        <route edges="A1B1 B1A1"/>
+    </vehicle>
+    <vehicle id="car_44" depart="264.00">
+        <route edges="C1C2 C2B2 B2C2 C2C1"/>
+    </vehicle>
+    <vehicle id="car_45" depart="270.00">
+        <route edges="B2C2 C2C1 C1B1 B1B2 B2A2 A2A1"/>
+    </vehicle>
+    <vehicle id="car_46" depart="276.00">
+        <route edges="B0A0 A0A1 A1B1"/>
+    </vehicle>
+    <vehicle id="car_47" depart="282.00">
+        <route edges="C2C1 C1C0 C0B0 B0A0"/>
+    </vehicle>
+    <vehicle id="car_48" depart="288.00">
+        <route edges="C2B2 B2B1 B1B0"/>
+    </vehicle>
+    <vehicle id="car_49" depart="294.00">
+        <route edges="B1A1 A1A2 A2B2 B2A2 A2A1"/>
+    </vehicle>
+    <vehicle id="car_50" depart="300.00">
+        <route edges="B2B1 B1A1"/>
+    </vehicle>
+    <vehicle id="car_51" depart="306.00">
+        <route edges="A2A1 A1B1 B1B0 B0A0"/>
+    </vehicle>
+    <vehicle id="car_52" depart="312.00">
+        <route edges="B2B1 B1B2"/>
+    </vehicle>
+    <vehicle id="car_53" depart="318.00">
+        <route edges="A0A1 A1B1 B1C1 C1C2"/>
+    </vehicle>
+    <vehicle id="car_54" depart="324.00">
+        <route edges="B0C0 C0C1 C1C2"/>
+    </vehicle>
+    <vehicle id="car_55" depart="330.00">
+        <route edges="A1A2 A2B2 B2B1 B1B2"/>
+    </vehicle>
+    <vehicle id="car_56" depart="336.00">
+        <route edges="B0B1 B1A1 A1A0 A0B0"/>
+    </vehicle>
+    <vehicle id="car_57" depart="342.00">
+        <route edges="A0A1"/>
+    </vehicle>
+    <vehicle id="car_58" depart="348.00">
+        <route edges="C1B1 B1B2 B2A2"/>
+    </vehicle>
+    <vehicle id="car_59" depart="354.00">
+        <route edges="A2B2 B2B1"/>
+    </vehicle>
+    <vehicle id="car_60" depart="360.00">
+        <route edges="C2B2 B2B1 B1B0 B0C0 C0C1"/>
+    </vehicle>
+    <vehicle id="car_61" depart="366.00">
+        <route edges="C0C1 C1B1 B1B0"/>
+    </vehicle>
+    <vehicle id="car_62" depart="372.00">
+        <route edges="A1B1 B1B2 B2C2"/>
+    </vehicle>
+    <vehicle id="car_63" depart="378.00">
+        <route edges="C0C1 C1C2 C2B2 B2A2"/>
+    </vehicle>
+    <vehicle id="car_64" depart="384.00">
+        <route edges="A0B0 B0B1 B1C1 C1C0 C0B0"/>
+    </vehicle>
+    <vehicle id="car_65" depart="390.00">
+        <route edges="A1B1 B1B0 B0C0"/>
+    </vehicle>
+    <vehicle id="car_66" depart="396.00">
+        <route edges="B1B0 B0B1 B1B2"/>
+    </vehicle>
+    <vehicle id="car_67" depart="402.00">
+        <route edges="A2B2 B2B1 B1A1"/>
+    </vehicle>
+    <vehicle id="car_68" depart="408.00">
+        <route edges="B1A1 A1A2 A2B2 B2C2 C2C1"/>
+    </vehicle>
+    <vehicle id="car_69" depart="414.00">
+        <route edges="B1B2 B2B1"/>
+    </vehicle>
+    <vehicle id="car_70" depart="420.00">
+        <route edges="C1B1 B1B2 B2C2"/>
+    </vehicle>
+    <vehicle id="car_71" depart="426.00">
+        <route edges="C2C1"/>
+    </vehicle>
+    <vehicle id="car_72" depart="432.00">
+        <route edges="C0C1 C1B1 B1B0 B0A0"/>
+    </vehicle>
+    <vehicle id="car_73" depart="438.00">
+        <route edges="B0A0 A0A1 A1B1 B1B2 B2A2"/>
+    </vehicle>
+    <vehicle id="car_74" depart="444.00">
+        <route edges="A0A1 A1B1"/>
+    </vehicle>
+    <vehicle id="car_75" depart="450.00">
+        <route edges="B2C2 C2C1 C1C2"/>
+    </vehicle>
+    <vehicle id="car_76" depart="456.00">
+        <route edges="C1C2 C2B2 B2B1"/>
+    </vehicle>
+    <vehicle id="car_77" depart="462.00">
+        <route edges="C0B0 B0A0"/>
+    </vehicle>
+    <vehicle id="car_78" depart="468.00">
+        <route edges="B2B1 B1B0 B0C0"/>
+    </vehicle>
+    <vehicle id="car_79" depart="474.00">
+        <route edges="A1A0 A0B0 B0C0 C0C1"/>
+    </vehicle>
+    <vehicle id="car_80" depart="480.00">
+        <route edges="B0B1 B1B2 B2A2"/>
+    </vehicle>
+    <vehicle id="car_81" depart="486.00">
+        <route edges="B2A2 A2A1 A1A0"/>
+    </vehicle>
+    <vehicle id="car_82" depart="492.00">
+        <route edges="B1B0 B0B1 B1C1"/>
+    </vehicle>
+    <vehicle id="car_83" depart="498.00">
+        <route edges="B1C1 C1B1 B1A1 A1A0"/>
+    </vehicle>
+    <vehicle id="car_84" depart="504.00">
+        <route edges="A1A2 A2B2 B2B1 B1B0"/>
+    </vehicle>
+    <vehicle id="car_85" depart="510.00">
+        <route edges="A0B0 B0B1"/>
+    </vehicle>
+    <vehicle id="car_86" depart="516.00">
+        <route edges="A2B2 B2A2"/>
+    </vehicle>
+    <vehicle id="car_87" depart="522.00">
+        <route edges="A0A1"/>
+    </vehicle>
+    <vehicle id="car_88" depart="528.00">
+        <route edges="B2A2 A2A1 A1A0 A0B0 B0B1"/>
+    </vehicle>
+    <vehicle id="car_89" depart="534.00">
+        <route edges="A2A1 A1B1 B1C1"/>
+    </vehicle>
+    <vehicle id="car_90" depart="540.00">
+        <route edges="C0C1 C1B1 B1C1"/>
+    </vehicle>
+    <vehicle id="car_91" depart="546.00">
+        <route edges="B2B1 B1C1 C1B1"/>
+    </vehicle>
+    <vehicle id="car_92" depart="552.00">
+        <route edges="B1B2 B2C2 C2C1 C1C0 C0B0"/>
+    </vehicle>
+    <vehicle id="car_93" depart="558.00">
+        <route edges="C0B0 B0B1 B1A1 A1A0"/>
+    </vehicle>
+    <vehicle id="car_94" depart="564.00">
+        <route edges="C0C1 C1C2"/>
+    </vehicle>
+    <vehicle id="car_95" depart="570.00">
+        <route edges="B0A0 A0A1 A1A2 A2B2"/>
+    </vehicle>
+    <vehicle id="car_96" depart="576.00">
+        <route edges="A1A2 A2B2 B2C2"/>
+    </vehicle>
+    <vehicle id="car_97" depart="582.00">
+        <route edges="B0B1 B1C1 C1C0 C0B0"/>
+    </vehicle>
+    <vehicle id="car_98" depart="588.00">
+        <route edges="C2B2 B2B1 B1B0 B0C0"/>
+    </vehicle>
+    <vehicle id="car_99" depart="594.00">
+        <route edges="B0B1 B1B0 B0A0 A0A1"/>
+    </vehicle>
+</routes>

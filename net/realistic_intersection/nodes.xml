@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+    <!-- Four-approach intersection; center is a signalized junction -->
+    <node id="n" x="0.0" y="200.0" type="priority"/>
+    <node id="s" x="0.0" y="-200.0" type="priority"/>
+    <node id="e" x="200.0" y="0.0" type="priority"/>
+    <node id="w" x="-200.0" y="0.0" type="priority"/>
+    <node id="j0" x="0.0" y="0.0" type="traffic_light"/>
+</nodes>

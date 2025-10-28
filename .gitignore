@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+
+# Virtual environments
+venv/
+.venv/
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorBoard and heavy runtime artifacts
+tb_run/
+**/tb/
+*.tfevents.*
+
+# Optional: local videos or camera cache (uncomment if needed)
+# camera_cache/

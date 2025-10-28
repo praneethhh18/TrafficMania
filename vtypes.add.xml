@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+    <!-- Define vehicle types with GUI shapes and colors -->
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5.0" maxSpeed="16.7" color="0,0,255" guiShape="passenger"/>
+    <vType id="truck" accel="1.3" decel="4.0" sigma="0.5" length="12.0" maxSpeed="13.9" color="255,140,0" guiShape="truck"/>
+    <vType id="bus" accel="1.2" decel="4.0" sigma="0.5" length="12.0" maxSpeed="13.9" color="34,139,34" guiShape="bus"/>
+    <vType id="motorbike" accel="3.0" decel="5.0" sigma="0.5" length="2.0" maxSpeed="18.0" color="255,0,255" guiShape="motorcycle"/>
+    <!-- Ambulance type for priority demonstrations -->
+    <vType id="ambulance" accel="3.0" decel="5.0" sigma="0.5" length="5.0" maxSpeed="20.0" color="255,255,0" guiShape="emergency"/>
+</additional>

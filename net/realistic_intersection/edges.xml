@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <!-- North-South is a faster multi-lane arterial (3 lanes each direction) -->
+    <edge id="n_j0" from="n" to="j0" priority="3" numLanes="3" speed="16.67"/>
+    <edge id="j0_s" from="j0" to="s" priority="3" numLanes="3" speed="16.67"/>
+
+    <!-- East-West is a standard city arterial (2 lanes each direction) -->
+    <edge id="e_j0" from="e" to="j0" priority="2" numLanes="2" speed="13.89"/>
+    <edge id="j0_w" from="j0" to="w" priority="2" numLanes="2" speed="13.89"/>
+    <edge id="w_j0" from="w" to="j0" priority="2" numLanes="2" speed="13.89"/>
+    <edge id="j0_e" from="j0" to="e" priority="2" numLanes="2" speed="13.89"/>
+
+    <!-- Southbound return for NS -->
+    <edge id="s_j0" from="s" to="j0" priority="3" numLanes="3" speed="16.67"/>
+    <edge id="j0_n" from="j0" to="n" priority="3" numLanes="3" speed="16.67"/>
+</edges>
