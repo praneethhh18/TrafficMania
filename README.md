@@ -141,8 +141,30 @@ This project trains a traffic light controller in SUMO using a Double Dueling DQ
 Notes:
 - Totals include queue/wait penalties, so they can remain negative even with improved behavior. We maintained zero collisions, rule enforcement penalties, ambulance priority, and reasonable queues/waits.
 
+### Positive metrics (quick view)
+
+Even if the raw reward total is negative (by design, because it subtracts queue/wait costs), the outcomes are positive:
+
+- Safety: 0 collisions in both headless and GUI runs (✅)
+- Throughput: 245 vehicles cleared in 600 steps (headless), 108 in 300 steps (GUI)
+- Efficiency: low average queue length (≈1.18 lanes) and wait (≈8–10 s)
+
+If you prefer a positive episode total, you have two simple options:
+
+1) Increase the arrival reward at run time, for example:
+
+```powershell
+& "venv/Scripts/python.exe" .\run_dqn_policy.py `
+  --model .\dqn_final_finetune.pt `
+  --max-steps 600 `
+  --arrival-reward 6.0  # try 6.0–8.0 depending on your alpha/beta
+```
+
+2) Report KPIs (recommended): focus on positive metrics (collisions, arrivals, avg queue/wait). Reward sign is arbitrary; trends and KPIs are what matter.
+
 ## Configuration tips
 
+- Positive episode totals: raise `--arrival-reward` (e.g., 6.0–8.0) for evaluation, or keep the current shaping and emphasize KPIs.
 - Make totals less negative: raise `--arrival-reward` (e.g., 4.0–5.0). Keep an eye on queues.
 - Harsher rule enforcement: raise `--violation-penalty` (e.g., 8–10) or enable escalation in code (`violation_reoffender_factor > 0`).
 - Stability: keep `--decision-interval` and `--min-green` to avoid oscillations.
